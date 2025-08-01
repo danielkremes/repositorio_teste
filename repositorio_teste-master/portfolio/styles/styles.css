@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  background-color: #000000;
+  color: #f6f6f6;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.header {
+  /* background-color: #22D4FD; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  /* border: 5px solid #5e1515; */
+  width: 90%;
+  margin: auto;
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+  /* border: 5px solid #5e1515; */
+  margin-right: auto;
+}
+
+.nav a {
+  text-decoration: none;
+  /* color: #000000; */
+  color: #f6f6f6;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.nav a:hover {
+  color: #32c8e6;
+  transition: 0.3s;
+}
+
+.highlight {
+  color: #22d4fd;
+}
+
+.main {
+  display: flex;
+  /* height: 100vh; */
+  width: 100%;
+  margin: auto;
+}
+
+.main__minha__experiencia {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+}
+.main__minha__experiencia_filha {
+  display: flex;
+  /* align-items: center; */
+}
+
+.main__minha_experiencia__trabalho {
+    width: 90%;
+}
+
+#main__minha_experiencia__trabalho_profissao {
+    display: flex;
+    justify-content: left;
+    /* padding: 1rem; */
+    gap: 1rem;
+}
+
+#hard__skills ul {
+  list-style: none;
+}
+
+#soft_skills ul {
+  list-style: none;
+}
+
+.content {
+  align-content: center;
+  margin: auto;
+  padding: 1rem;
+  width: 50%;
+}
+
+.description {
+  /* font-size: 1.3rem; */
+  text-align: justify;
+}
+
+.content__links {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+  align-items: center;
+  /* border: 5px solid #22D4FD; */
+}
+
+.content__links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-decoration: none;
+  color: #22d4fd;
+  font-size: 1rem;
+  gap: 0.5rem;
+  border: 2px solid #22d4fd;
+}
+
+.content__links a:hover {
+  /* background-color: #298ea5; */
+  background-color: #272727;
+  /* color: #000000; */
+  color: #f6f6f6;
+  transition: 0.3s;
+}
+
+.content__links img {
+  width: 1rem;
+  height: 1rem;
+}
+
+.image img {
+  align-content: center;
+  margin: auto;
+  padding: 1rem;
+  /* width: 50%; */
+  /* height: 100%; */
+}
+
+.link {
+  text-decoration: none;
+  font-weight: 600;
+  width: 6rem;
+  text-align: center;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+
+.footer {
+  background-color: #22d4fd;
+  display: flex;
+  color: #000000;
+  text-align: center;
+  font-weight: 600;
+  padding: 1rem;
+  /* width: 100%; */
+  height: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
